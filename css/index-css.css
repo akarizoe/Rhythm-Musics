@@ -1,0 +1,153 @@
+
+.hero-section{
+    background: url(/assets/hero-img.png);
+    background-size: cover;
+    background-position: center;
+    /* height: 60vh; */
+    color: #FFF;
+}
+
+.hero-section .cont-1{
+    padding: 40px !important;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.hero-section .cont-2{
+    padding: 40px !important;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont-2 p{
+    font-weight: bold;
+}
+
+.cont-2 button{
+    background-color: #FFF;
+    color: #000;
+    font-weight: bold;
+    width: 220px;
+    height: 56px;
+    border-radius: 10px;
+    transition: .25s;
+}
+
+.cont-2 button:hover{
+    opacity: 80%;
+}
+
+
+
+.feature-section{
+    background-color: #000;
+    color: #FFF;
+    padding: 60px 40px !important;
+}
+
+.feature-section .feature-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.feature-box{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.feature-box img{
+    margin-top: 20px;
+    width: 360px;
+}
+
+.feature-box p{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.items{
+    cursor: pointer;
+    transition: .5s;
+}
+
+.items:hover{
+    background-color: #353535;
+}
+
+
+
+.contact-section{
+    padding: 60px 40px !important;
+}
+
+.contact-section .contact-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.contact-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-img img{
+    width: 420px;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-form label{
+    display: block;
+    font-weight: bold;
+}
+
+.mes-box{
+    padding-bottom: 80px !important;
+}
+
+.contact-form input{
+    margin: 20px 0;
+    width: 360px;
+    padding: 5px;
+    outline: none;
+}
+
+.contact-btn{
+    text-align: center;
+}
+
+.contact-btn button{
+    width: 220px;
+    height: 46px;
+    padding: 5px;
+    outline: none;
+    border: solid 3px #000;
+    background-color: #000;
+    color: #FFF;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.contact-btn button:hover{
+    border: solid 3px #000;
+    background: transparent;
+    color: #000;
+}
